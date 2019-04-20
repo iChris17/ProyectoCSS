@@ -88,7 +88,7 @@ justify-content:center;
 }
 section .Imagen1 img {
 width:90%;	
-height:auto;
+height:300px;
 margin:5%;
 box-shadow:2px 2px #02010a;
 }
@@ -123,7 +123,7 @@ footer{
 background-color:#C6d5c5;
 width:100%;	
 display:flex;
-flex-wrap:wrap;
+flex-wrap:no-wrap;
 flex-direction:row;
 justify-content:space-between;
 color:Black;
@@ -131,6 +131,7 @@ border-radius:0px 0px 10px 10px;
 }
 
 footer div{
+	width:25%;
 	flex-grow:1;
 	text-align:center;
 
@@ -141,6 +142,7 @@ footer .Redes{
 	flex-wrap:wrap;
 	flex-direction:column;
 	justify-content:flex-start;	
+	
 	
 }
 
@@ -154,7 +156,6 @@ footer .Redes div{
 flex-grow:1;
 width:100%;
 text-align:left;
-padding-left:30%;	
 }
 
 footer .Redes div a{
@@ -189,6 +190,10 @@ line-height:30px;
 		flex-grow:1;
 		text-align:center;
 		}
+	
+	.Imagen1 img{
+	height:auto;	
+	}
 	
 	section .Imagen2{
 	flex-direction:column;	
